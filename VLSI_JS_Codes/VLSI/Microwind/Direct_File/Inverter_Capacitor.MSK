@@ -1,0 +1,31 @@
+VERSION 10/27/2025 11:47:40 PM
+FIG #E:\Microwind\Practice\Inverter_Capacitor.MSK
+BB(-19,43,37,73)
+SIMU #5.00
+REC(-19,57,24,16,NW)
+REC(-6,63,5,4,DP)
+REC(-13,63,5,4,DP)
+REC(-6,46,5,4,DN)
+REC(-13,46,5,4,DN)
+REC(-4,64,2,2,CO)
+REC(-12,47,2,2,CO)
+REC(-4,47,2,2,CO)
+REC(-12,64,2,2,CO)
+REC(-8,43,2,27,PO)
+REC(-13,46,4,4,ME)
+REC(-5,46,4,21,ME)
+REC(-13,63,4,4,ME)
+REC(-8,63,2,4,DP)
+REC(-8,46,2,4,DN)
+RLCC -3 55 2 55 1 #0.001
+TITLE -11 65  #Vdd
+$1 1000 0 
+TITLE -7 69  #I/p
+$c 1000 0 0.0900 0.1000 0.1900 0.2000 
+TITLE -11 48  #Vss
+$0 1000 0 
+TITLE -3 56  #O/P
+$v 1000 0 
+TITLE 3 59  #Vdd
+$1 1000 0 
+FFIG E:\Microwind\Practice\Inverter_Capacitor.MSK
